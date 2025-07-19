@@ -14,11 +14,11 @@ export default function ExternalImage() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Limit the zoom level: min 1.0, max 1.1 (on scrollY up to 300px)
   const zoomScale = 1 + Math.min(scrollY / 5000, 0.1);
 
   return (
-<div className="relative w-screen h-screen overflow-hidden overflow-x-hidden">      <Image
+<div className="relative w-screen h-screen overflow-hidden overflow-x-hidden">      
+  <Image
   src="https://assets.revolut.com/published-assets-v3/295390de-9798-4a4f-9872-2f2250864e44/e1e76086-0bc8-49af-a1ca-159e8895bf06.png"
   alt="Revolut Background"
   fill

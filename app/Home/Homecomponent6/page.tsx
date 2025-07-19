@@ -4,14 +4,7 @@ export default function Homecomponent6(){
     return(
         <>
         <div>
-  <div className="max-w-4xl mx-auto px-4">
-  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1A202C] leading-tight mb-6 text-center">
-    WHAT WE&apos;VE DONE SO FAR
-   </h2>
-   <p className="text-base font-medium text-left sm:text-center text-[#2D3748] leading-relaxed">
-   Get to know our global leadership team who steer the Dream Team at Panjar Renewables, driving innovation and sustainability. Our leaders uphold the spirit of the Corporate Code Principles, deeply embedded within Panjar&apos;s Framework to ensure transparency, accountability, and long-term impact.
-   </p>
-   </div>
+  
    <div>
 
    </div>
@@ -19,19 +12,19 @@ export default function Homecomponent6(){
 
 
 
-        <div className="py-20 px-4 md:px-12 bg-white">
+  <div className="py-20 px-4 md:px-12 bg-white">
   <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
     
     {/* Image Section */}
-    <div className="flex justify-center md:justify-end">
-      <Image
-        src="/ramesh1.png"
-        alt="Ramesh Yadava"
-        width={300}
-        height={700} // You can adjust height here
-        className="rounded-2xl object-cover h-[400px] w-auto"
-      />
-    </div>
+   <div className="flex justify-center ">
+   <Image
+      src="/ramesh1.png"
+      alt="teamwork"
+      width={400}
+      height={300}
+      className="rounded-2xl object-cover w-[300px] h-[400px]"
+    />
+</div>
 
     {/* Text Section */}
     <div className="flex flex-col justify-center h-full">

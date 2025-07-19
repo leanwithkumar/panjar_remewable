@@ -20,10 +20,10 @@ export default function Annual({ year, points, bgColor = "#1A73E8" }: Annualpros
       <div className="bg-gray-50 font-mono p-6">
         <h3 className="text-xl font-semibold text-gray-900 mb-4">{year}</h3>
         <ul className="list-disc list-outside pl-5 space-y-2 text-gray-700 text-[1rem] font-medium">
-  {points.map((point, index) => (
-    <li key={index}>{point}</li>
-  ))}
-</ul>
+        {points.map((point, index) => (
+        <li key={index}>{point}</li>
+        ))}
+      </ul>
       </div>
 
 

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-export default function Careercomponent1() {
+export default function Service1() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -21,11 +21,12 @@ export default function Careercomponent1() {
   
 
   <Image
+  
 
-    src="https://assets.revolut.com/published-assets-v3/31b6da6b-e096-48c3-b544-62789de96c0e/a9e3fee0-5224-433e-90ac-88e278e48ea8.png"
+    src="https://assets.revolut.com/website/assets/retail/home-V4/Hero.jpg"
     alt="Revolut Background"
     fill
-    className="transition-transform duration-300 ease-out will-change-transform object-[80%_center] md:object-center max-w-none"
+    className="transition-transform duration-300 ease-out will-change-transform object-[15%_center] md:object-center max-w-none"
     style={{
       objectFit: "cover",
       transform: `scale(${zoomScale})`,
@@ -34,7 +35,7 @@ export default function Careercomponent1() {
   />
 
   <div className="absolute inset-0 py-20 md:flex items-center md:justify-center px-4">
-    <div className="text-white md:text-left text-center max-w-3xl">
+    <div className="text-black md:text-left text-center max-w-3xl">
       <h1 className="text-2xl text-center md:text-6xl font-bold">
       Shape Future with Panjar </h1>
       <p className="py-4 text-center text-lg md:text-xl">

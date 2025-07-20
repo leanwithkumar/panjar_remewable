@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="flex gap-6">
           <Link href='/'><div>Panjar</div></Link>
           <Link href='/Products'><div>Products</div></Link>
-          <div>Services</div>
+          <Link href='/Services'><div>Services</div></Link>
           <Link href='/Career'><div>Career</div></Link> 
           
         </div>

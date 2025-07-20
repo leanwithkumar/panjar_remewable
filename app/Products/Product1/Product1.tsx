@@ -17,17 +17,20 @@ export default function Product1() {
   const zoomScale = 1 + Math.min(scrollY / 5000, 0.1);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+<div className="relative w-full h-[50vh] md:h-screen overflow-hidden">
       <Image
-        src="https://assets.revolut.com/website/assets/retail/home-V4/Hero.jpg"
-        alt="Clean Energy Background"
-        fill
-        priority
-        className="object-cover transition-transform duration-300 ease-out will-change-transform hover:blur-sm"
-        style={{
-          transform: `scale(${zoomScale})`,
-        }}
-      />
+        
+      
+          src="https://assets.revolut.com/website/assets/retail/home-V4/Hero.jpg"
+          alt="Revolut Background"
+          fill
+          className="transition-transform duration-300 ease-out will-change-transform object-[15%_center] md:object-center max-w-none"
+          style={{
+            objectFit: "cover",
+            transform: `scale(${zoomScale})`,
+          }}
+          priority
+        />
 
       <div className="absolute inset-0 py-20 md:flex items-center md:justify-center px-4">
         <div className="text-black md:text-left text-center max-w-3xl">

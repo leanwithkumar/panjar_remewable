@@ -44,12 +44,11 @@ const Navbar = () => {
           <Link href='/Products'><div>Products</div></Link>
           <Link href='/Services'><div>Services</div></Link>
           <Link href='/Career'><div>Career</div></Link> 
+          <div>Login</div>
+          
           
         </div>
-        <div className="flex gap-6">
-          <div>Login</div>
-          <div>Sign Up</div>
-        </div>
+        
       </div>
     </div>
   );

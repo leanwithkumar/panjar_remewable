@@ -39,7 +39,7 @@ const Navbar = () => {
       }`}
     >
       <div className="flex justify-evenly px-10 py-4">
-        <div className="flex gap-6">
+        <div className="flex justify-center gap-2 md:gap-5">
           <Link href='/'><div>Panjar</div></Link>
           <Link href='/Products'><div>Products</div></Link>
           <Link href='/Services'><div>Services</div></Link>
